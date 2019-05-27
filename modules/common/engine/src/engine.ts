@@ -6,12 +6,14 @@
  * found in the LICENSE file at https://angular.io/license
  */
 import {ResourceLoader} from '@angular/compiler';
-import {Compiler, Type, NgModuleFactory, CompilerFactory, StaticProvider} from '@angular/core';
+import {Compiler, Type, NgModuleFactory, CompilerFactory, StaticProvider, InjectionToken} from '@angular/core';
 import {INITIAL_CONFIG, renderModuleFactory, platformDynamicServer} from '@angular/platform-server';
 import * as fs from 'fs';
 
 import {FileLoader} from './file-loader';
 import {RenderOptions} from './interfaces';
+
+export const SERVER_CONTEXT: InjectionToken<any> = new InjectionToken<any>('SERVER_CONTEXT');
 
 /**
  * A common rendering engine utility. This abstracts the logic
@@ -44,6 +46,7 @@ export class CommonEngine {
     const extraProviders = [
       ...(opts.providers || []),
       ...(this.providers || []),
+      {provide: SERVER_CONTEXT, useValue: JSON.parse(opts.context)},
       {
         provide: INITIAL_CONFIG,
         useValue: {

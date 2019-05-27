@@ -1,0 +1,43 @@
+{
+  "name": "@nguniversal/hapi-engine",
+  "version": "v8.0.0-rc.1+1.sha-d8be7af.with-local-changes",
+  "description": "Hapi Engine for running Server Angular Apps",
+  "license": "MIT",
+  "keywords": [
+    "hapi",
+    "ssr",
+    "universal"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^8.0.0-rc.4",
+    "@angular/core": "^8.0.0-rc.4",
+    "@angular/platform-server": "^8.0.0-rc.4",
+    "hapi": "^17.0.0"
+  },
+  "schematics": "./schematics/collection.json",
+  "ng-update": {
+    "packageGroup": [
+      "@nguniversal/aspnetcore-engine",
+      "@nguniversal/common",
+      "@nguniversal/express-engine",
+      "@nguniversal/hapi-engine",
+      "@nguniversal/module-map-ngfactory-loader"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular/universal"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/universal/issues"
+  },
+  "homepage": "https://github.com/angular/universal",
+  "main": "./bundles/hapi-engine.umd.js",
+  "fesm5": "./fesm5/hapi-engine.js",
+  "fesm2015": "./fesm2015/hapi-engine.js",
+  "esm5": "./esm5/hapi-engine_public_index.js",
+  "esm2015": "./esm2015/hapi-engine_public_index.js",
+  "typings": "./hapi-engine_public_index.d.ts",
+  "module": "./fesm5/hapi-engine.js",
+  "es2015": "./fesm2015/hapi-engine.js"
+}

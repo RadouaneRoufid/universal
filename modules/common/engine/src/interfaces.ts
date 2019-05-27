@@ -14,4 +14,5 @@ export interface RenderOptions {
   url?: string;
   document?: string;
   documentFilePath?: string;
+  context?: any;
 }

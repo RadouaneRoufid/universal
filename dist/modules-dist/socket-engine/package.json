@@ -1,0 +1,40 @@
+{
+  "name": "@nguniversal/socket-engine",
+  "version": "v8.0.0-rc.1+1.sha-d8be7af.with-local-changes",
+  "description": "Socket Engine for running Server Angular Apps",
+  "license": "MIT",
+  "keywords": [
+    "socket",
+    "ssr",
+    "universal"
+  ],
+  "peerDependencies": {
+    "@nguniversal/common": "v8.0.0-rc.1+1.sha-d8be7af.with-local-changes",
+    "@angular/core": "^8.0.0-rc.4"
+  },
+  "ng-update": {
+    "packageGroup": [
+      "@nguniversal/aspnetcore-engine",
+      "@nguniversal/common",
+      "@nguniversal/express-engine",
+      "@nguniversal/hapi-engine",
+      "@nguniversal/module-map-ngfactory-loader"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular/universal"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/universal/issues"
+  },
+  "homepage": "https://github.com/angular/universal",
+  "main": "./bundles/socket-engine.umd.js",
+  "fesm5": "./fesm5/socket-engine.js",
+  "fesm2015": "./fesm2015/socket-engine.js",
+  "esm5": "./esm5/socket-engine_public_index.js",
+  "esm2015": "./esm2015/socket-engine_public_index.js",
+  "typings": "./socket-engine_public_index.d.ts",
+  "module": "./fesm5/socket-engine.js",
+  "es2015": "./fesm2015/socket-engine.js"
+}

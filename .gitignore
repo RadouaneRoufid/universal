@@ -15,7 +15,6 @@ logs
 
 package-lock.json
 typings
-dist
 node_modules
 ngfactory
 web_modules
@@ -25,7 +24,6 @@ web_modules
 
 # Build Artifacts #
 release
-dist
 bazel-out
 /node_modules/
 lerna-debug.log

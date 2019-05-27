@@ -7,4 +7,4 @@
  */
 
 export { FileLoader as ɵFileLoader, CommonEngine as ɵCommonEngine,
-  RenderOptions as ɵRenderOptions } from './src/index';
+  RenderOptions as ɵRenderOptions, SERVER_CONTEXT } from './src/index';

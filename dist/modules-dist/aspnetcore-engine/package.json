@@ -1,0 +1,49 @@
+{
+  "name": "@nguniversal/aspnetcore-engine",
+  "version": "v8.0.0-rc.1+1.sha-d8be7af.with-local-changes",
+  "description": "ASP.NET Core Engine for running Server Angular Apps",
+  "author": {
+    "name": "MarkPieszak",
+    "email": "mpieszak84@gmail.com",
+    "url": "github.com/markpieszak"
+  },
+  "license": "MIT",
+  "contributors": [
+    "MarkPieszak"
+  ],
+  "keywords": [
+    "asp.net",
+    "ssr",
+    "universal"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^8.0.0-rc.4",
+    "@angular/core": "^8.0.0-rc.4",
+    "rxjs": "^6.4.0"
+  },
+  "ng-update": {
+    "packageGroup": [
+      "@nguniversal/aspnetcore-engine",
+      "@nguniversal/common",
+      "@nguniversal/express-engine",
+      "@nguniversal/hapi-engine",
+      "@nguniversal/module-map-ngfactory-loader"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular/universal"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/universal/issues"
+  },
+  "homepage": "https://github.com/angular/universal",
+  "main": "./bundles/aspnetcore-engine.umd.js",
+  "fesm5": "./fesm5/aspnetcore-engine.js",
+  "fesm2015": "./fesm2015/aspnetcore-engine.js",
+  "esm5": "./esm5/aspnetcore-engine_public_index.js",
+  "esm2015": "./esm2015/aspnetcore-engine_public_index.js",
+  "typings": "./aspnetcore-engine_public_index.d.ts",
+  "module": "./fesm5/aspnetcore-engine.js",
+  "es2015": "./fesm2015/aspnetcore-engine.js"
+}
