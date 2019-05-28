@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="8.0.0"></a>
+# [8.0.0](https://github.com/angular/universal/compare/v8.0.0-rc.1...v8.0.0) (2019-05-28)
+
+
+### Bug Fixes
+
+* **express-engine:** add bundleDependencies and lazy-loading fixes ([#1167](https://github.com/angular/universal/issues/1167)) ([d8be7af](https://github.com/angular/universal/commit/d8be7af))
+
+
+
 <a name="7.1.1"></a>
 ## [7.1.1](https://github.com/angular/universal/compare/v7.1.0...v7.1.1) (2019-03-07)
 
