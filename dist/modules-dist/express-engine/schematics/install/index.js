@@ -43,12 +43,12 @@
             dependencies_1.addPackageJsonDependency(host, {
                 type: dependencies_1.NodeDependencyType.Default,
                 name: '@nguniversal/express-engine',
-                version: 'v8.0.0-rc.1+1.sha-d8be7af.with-local-changes',
+                version: 'v8.0.0-rc.1+3.sha-a83e5a6.with-local-changes',
             });
             dependencies_1.addPackageJsonDependency(host, {
                 type: dependencies_1.NodeDependencyType.Default,
                 name: '@nguniversal/module-map-ngfactory-loader',
-                version: 'v8.0.0-rc.1+1.sha-d8be7af.with-local-changes',
+                version: 'v8.0.0-rc.1+3.sha-a83e5a6.with-local-changes',
             });
             dependencies_1.addPackageJsonDependency(host, {
                 type: dependencies_1.NodeDependencyType.Default,

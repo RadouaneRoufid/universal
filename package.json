@@ -57,6 +57,7 @@
     "node": ">= 8.9.x"
   },
   "scripts": {
+    "postinstall": "ngc -p ./angular-metadata.tsconfig.json",
     "lint": "tslint -c tslint.json '+(modules|tools)/**/*.ts' --exclude '**/node_modules/**/*'",
     "build": "ts-node --project ./tools/tsconfig.json build.ts",
     "upver": "standard-version",
